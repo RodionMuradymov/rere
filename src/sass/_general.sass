@@ -5,6 +5,53 @@
     min-height: 650px
     padding: 23px 0 93px 0
     background: url("../img/bg/back.png") center center/cover no-repeat
+    &__wrapper
+        display: flex
+        flex-direction: column
+        align-items: flex-end
+        margin-top: 90px
+    &__header
+        font-size: 42px
+        font-weight: 700
+        text-transform: uppercase
+        color: #ffffff
+        line-height: 42px
+    &__subheader
+        margin-top: 17px
+        font-size: 24px
+        font-weight: 500
+        text-transform: uppercase
+        color: #ffffff
+        line-height: 24px
+    &__icons
+        margin-top: 65px
+        width: 425px
+        display: flex
+        justify-content: space-between
+    &__icon
+        width: 106px
+        text-align: center
+        font-size: 14px
+        line-height: 1.2
+        font-weight: 500
+        color: white
+        img
+            display: block
+            margin: 0 auto
+            margin-bottom: 20px
+    &__link
+        font-size: 16px
+        font-weight: 500
+        color: #ffffff
+        margin-top: 18px
+        a
+            font-size: 16px
+            font-weight: 500
+            text-decoration: underline
+            color: #ffffff
+            text-transform: uppercase
+
+
 .header
     display: flex
     justify-content: space-between
@@ -17,8 +64,77 @@
         font-size: 12px
         font-weight: 500
         color: #ffffff
+        text-align: center
         span
             display: block
             font-size: 18px
             font-weight: 700
             color: #ffffff
+    &__phone
+        font-size: 18px
+        font-weight: 700
+        color: #ffffff
+        &:hover
+            color: red
+            text-decoration: none
+    &__contacts
+        display: flex
+        flex-direction: column
+        align-items: flex-end
+.button
+    display: block
+    width: 150px
+    height: 30px
+    background-color: $main-color
+    border-radius: 5px
+    border: none
+    font-size: 12px
+    font-weight: 500
+    text-transform: uppercase
+    color: #ffffff
+    &_main
+        margin-top: 65px
+        width: 300px
+        height: 50px
+        background-color: $main-color
+        font-size: 16px
+
+   
+.advantages 
+    padding: 70px 0 80px 0
+    background-color: #f6f6f6
+    &__title
+        text-align: center
+    &__wrapper 
+        margin-top: 65px
+        display: flex
+        justify-content: space-between
+    &__item         
+        display: flex
+        flex-direction: column
+        align-items: center
+        max-width: 239px
+    &__subtitle 
+        margin-top: 38px
+        color: #0d0d0d
+        font-size: 18px
+        font-weight: 700
+    &__descr 
+        margin-top: 26px
+        color: #0d0d0d
+        font-size: 14px
+        font-weight: 300
+        text-align: center
+        a 
+            color: red
+            text-decoration: underline
+
+
+   
+    
+    
+
+
+
+    
+             
